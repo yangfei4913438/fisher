@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "tsinghua"
+
+[packages]
+flask = "*"
+requests = "*"
+wtforms = "*"
+flask-sqlalchemy = "*"
+mysqlclient = "*"
+werkzeug = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
